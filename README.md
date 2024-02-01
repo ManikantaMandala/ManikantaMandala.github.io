@@ -10,7 +10,6 @@ cross-functional teams.
 - Leetcode: [leetcode.com](https://leetcode.com/user1224Kj/)
 
 ## Skills
-
 - Frontend: HTML, CSS, Javascript, React.js
 - Backend: Spring/Spring-boot, Node.js, Express.js, Typescript
 - Database: PostgreSQL, MongoDB, MySql
@@ -20,8 +19,7 @@ cross-functional teams.
 
 ## Experience
 ### Areksoft Technologies
-######  Android Developer
-
+Android Developer
 - Developed a working android application has functionalities like user authentication, user data management, payment gateway.
 - Collaborated with 3 membered teams to design and implement the
 application.
@@ -30,14 +28,14 @@ application.
 [github.com/YashitaKumar/Chit-Fund-Management-App](https://github.com/YashitaKumar/Chit-Fund-Management-App)
 ## Projects
 ### DocPlay: 
-###### Python, LangChain, GooglePalm, FAISS, Streamlit
+Python, LangChain, GooglePalm, FAISS, Streamlit
 
 - Assembled an AI chat-bot that trains on the text from the document user uploaded and answer any query user ask about that document.
 - Created a web service which is hosted in our college servers.
 - [github.com/ManikantaMandala/DocPlay](https://github.com/ManikantaMandala/DocPlay)
 
 ### ZipShort
-###### Spring boot, React.js, PostgreSQL DB
+Spring boot, React.js, PostgreSQL DB
 
 - Developed and implemented a URL shortening application that enhances
 link sharing efficiency. The application takes a long URL as input and
@@ -46,7 +44,7 @@ generates a concise, easy-to-share short URL
 React.JS and the other was written using Spring boot.
 - [github.com/ManikantaMandala/learningJava/tree/day7](https://github.com/ManikantaMandala/learningJava/tree/day7)
 ### Todo Application
-###### Node.js, React.js, MongoDB
+Node.js, React.js, MongoDB
 
 - Developed a minimalist Todo Application with user authentication, user
 authorization, RESTful APIs
