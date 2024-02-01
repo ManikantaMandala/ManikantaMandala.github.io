@@ -9,16 +9,16 @@ cross-functional teams.
 - Phone: [+918688014820](tel:+918688014820)
 - Leetcode: [leetcode.com](https://leetcode.com/user1224Kj/)
 
-# Skills
+## Skills
 
-###### Frontend: HTML, CSS, Javascript, React.js
-###### Backend: Spring/Spring-boot, Node.js, Express.js, Typescript
-###### Database: PostgreSQL, MongoDB, MySql
-###### Languages: Java, JavaScript, TypeScript
-###### Tools/Platforms: Git, Neovim, Tmux, shell
-###### currently learning: Docker, Kubernetes
+- Frontend: HTML, CSS, Javascript, React.js
+- Backend: Spring/Spring-boot, Node.js, Express.js, Typescript
+- Database: PostgreSQL, MongoDB, MySql
+- Languages: Java, JavaScript, TypeScript
+- Tools/Platforms: Git, Neovim, Tmux, shell
+- currently learning: Docker, Kubernetes
 
-# Experience
+## Experience
 ### Areksoft Technologies
 ######  Android Developer
 
@@ -28,15 +28,15 @@ application.
 - Used different technologies like Java, XML, Gradle, Firebase, git.
 
 [github.com/YashitaKumar/Chit-Fund-Management-App](https://github.com/YashitaKumar/Chit-Fund-Management-App)
-# Projects
-## DocPlay: 
+## Projects
+### DocPlay: 
 ###### Python, LangChain, GooglePalm, FAISS, Streamlit
 
 - Assembled an AI chat-bot that trains on the text from the document user uploaded and answer any query user ask about that document.
 - Created a web service which is hosted in our college servers.
 - [github.com/ManikantaMandala/DocPlay](https://github.com/ManikantaMandala/DocPlay)
 
-## ZipShort
+### ZipShort
 ###### Spring boot, React.js, PostgreSQL DB
 
 - Developed and implemented a URL shortening application that enhances
@@ -45,7 +45,7 @@ generates a concise, easy-to-share short URL
 - Constructed a web application with two services. One was written in
 React.JS and the other was written using Spring boot.
 - [github.com/ManikantaMandala/learningJava/tree/day7](https://github.com/ManikantaMandala/learningJava/tree/day7)
-## Todo Application
+### Todo Application
 ###### Node.js, React.js, MongoDB
 
 - Developed a minimalist Todo Application with user authentication, user
