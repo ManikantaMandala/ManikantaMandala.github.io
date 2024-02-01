@@ -9,6 +9,12 @@ cross-functional teams.
 - Phone: [+918688014820](tel:+918688014820)
 - Leetcode: [leetcode.com](https://leetcode.com/user1224Kj/)
 
+## Education
+#### BML Munjal University:
+- Currently pursuing
+- Bachelors' of computer science
+- CGPA: 7.69/10
+
 ## Skills
 - Frontend: HTML, CSS, Javascript, React.js
 - Backend: Spring/Spring-boot, Node.js, Express.js, Typescript
@@ -52,8 +58,3 @@ authorization, RESTful APIs
 backend using Node.js. Where the implementation contains multiple
 libraries like, Zod, mongoose, dotenv, jsonwebtoken, Express.js, etc..
 - [github.com/ManikantaMandala/TodoApplication](https://github.com/ManikantaMandala/TodoApplication)
-## Education
-#### BML Munjal University:
-- Currently pursuing
-- Bachelors' of computer science
-- CGPA: 7.69/10
