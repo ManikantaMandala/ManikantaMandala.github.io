@@ -1,10 +1,11 @@
 #root {
-    max-width: 1280px;
+    max-width: 80vw;
     margin: 0 auto;
 
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
+    /* background: yellow; */
 
     /* color-scheme: light dark; */
     /* color: rgba(255, 255, 255, 0.87); */
@@ -26,17 +27,21 @@
     margin: .5rem;
 }
 
-.Resume{
+.Resume h2{
+    margin-bottom: 0;
+}
+.Resume h4{
+    margin: 0;
 }
 
-ul.Resume{
-    display: grid;
-    padding: 0;
+.Resume ul{
+    padding: 0 1rem;
+    margin-top: 0;
 }
 
 .App{
-    margin: 0 5rem;
-    padding: 0 7rem;
+    margin: 0 0.5rem;
+    padding: 0 4rem;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -44,4 +49,16 @@ ul.Resume{
 }
 ::-webkit-scrollbar {
   width: 0;
+}
+.Contact{
+    /* background: red; */
+    padding: 0.2rem 1rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.Contact img{
+    padding: 0.3rem;
+    width: 30px;
+    height: 30px;
 }

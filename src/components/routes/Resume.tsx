@@ -9,7 +9,7 @@ export default function Resume(){
                     <section className="Education">
                         <h2 >Education</h2>
                         <h4 >
-                            <a href="https://www.bmu.edu.in/">
+                            <a href="https://www.bmu.edu.in/" target="_blank">
                                 BML Munjal University:
                             </a>
                         </h4>
@@ -34,7 +34,7 @@ export default function Resume(){
                         <h2 >Experience</h2>
                         <section>
                             <span>
-                                <a href="https://www.areksoft.com/">Areksoft Technologies</a>
+                                <a href="https://www.areksoft.com/" target="_blank">Areksoft Technologies</a>
                             </span>
                             |
                                 <span>
@@ -51,7 +51,7 @@ export default function Resume(){
                                     Used different technologies like Java, XML, Gradle, Firebase, git.
                                 </li>
                                 <li>
-                                        <a href="https://github.com/YashitaKumar/Chit-Fund-Management-App">github.com/YashitaKumar/Chit-Fund-Management-App</a> 
+                                        <a href="https://github.com/YashitaKumar/Chit-Fund-Management-App" target="_blank">github.com/YashitaKumar/Chit-Fund-Management-App</a> 
                                 </li>
                             </ul>
                         </section>
@@ -60,7 +60,7 @@ export default function Resume(){
                         <h2 >Projects</h2>
                         <section className="Project">
                             <span className="ProjectHeading">
-                                <a href="https://github.com/ManikantaMandala/DocPlay">DocPlay</a> 
+                                <a href="https://github.com/ManikantaMandala/DocPlay" target="_blank">DocPlay</a> 
                             </span>
                             | 
                             <span>
@@ -77,7 +77,7 @@ export default function Resume(){
                         </section>
                         <section className="Project">
                             <span className="ProjectHeading">
-                                <a href="https://github.com/ManikantaMandala/learningJava/tree/day7">ZipShort</a> 
+                                <a href="https://github.com/ManikantaMandala/learningJava/tree/day7" target="_blank">ZipShort</a> 
                             </span>
                             | 
                             <span>
@@ -94,7 +94,7 @@ export default function Resume(){
                         </section>
                         <section className="Project">
                             <span className="ProjectHeading">
-                                <a href="https://github.com/ManikantaMandala/TodoApplication">TodoApplication</a> 
+                                <a href="https://github.com/ManikantaMandala/TodoApplication" target="_blank">TodoApplication</a> 
                             </span>
                             | 
                             <span>
