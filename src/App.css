@@ -77,7 +77,6 @@
 
 .hamburger-open{
     display: flex;
-    z-index; -1;
     flex-direction: row;
     width: 100%;
     z-index: 1000; 
