@@ -17,14 +17,38 @@
     /* -moz-osx-font-smoothing: grayscale; */
 }
 
+::-webkit-scrollbar {
+  width: 0;
+}
+
+#menu {
+    cursor: pointer;
+}
+.App{
+    margin: 0 0.5rem;
+    padding: 0 4rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 500px){
+    .App{
+        padding: 0;
+        flex-wrap: wrap;
+    }
+}
+
 .NavBar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.Button{
-    margin: .5rem;
+.nav_link{
+    display: flex;
+    gap: 1rem;
 }
 
 .Resume h2{
@@ -39,19 +63,7 @@
     margin-top: 0;
 }
 
-.App{
-    margin: 0 0.5rem;
-    padding: 0 4rem;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    overflow: hidden;
-}
-::-webkit-scrollbar {
-  width: 0;
-}
 .Contact{
-    /* background: red; */
     padding: 0.2rem 1rem;
     display: flex;
     justify-content: flex-end;
@@ -61,4 +73,35 @@
     padding: 0.3rem;
     width: 30px;
     height: 30px;
+}
+
+.hamburger-open{
+    display: flex;
+    z-index; -1;
+    flex-direction: row;
+    width: 100%;
+    z-index: 1000; 
+    position: absolute;
+    margin-left: auto;
+    transform: translate(-10%, -50%);
+}
+#terminal-container button{
+    padding: 0;
+}
+#terminal-container {
+    padding: 0;
+}
+@media only screen and (max-width: 500px){
+    #terminal-container{
+        padding: 0;
+        margin: 0;
+    }
+}
+.x{
+    z-index: 1001;
+}
+.nav-links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
