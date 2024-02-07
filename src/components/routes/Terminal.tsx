@@ -3,7 +3,7 @@ import Terminal, { ColorMode, TerminalOutput } from 'react-terminal-ui';
 import { education } from '../../scripts/education';
 import { experience } from '../../scripts/experience';
 import { skills } from '../../scripts/skills';
-import { contacts } from '../../scripts/contacts';
+// import { contacts } from '../../scripts/contacts';
 import { projects } from '../../scripts/projects';
 import shortDescription from '../../scripts/shortDescription';
 
@@ -76,7 +76,7 @@ function terminalCommands(expression: string, setOutput: any, output: string) {
             });
             break;
         case 'contacts':
-            const contactsOutput = generateContacts(contacts, output);
+            const contactsOutput = generateContacts(/*contacts,*/ output);
 
             setOutput((prevOutput: JSX.Element[] | undefined) => {
                 return prevOutput && Symbol.iterator in Object(prevOutput)
