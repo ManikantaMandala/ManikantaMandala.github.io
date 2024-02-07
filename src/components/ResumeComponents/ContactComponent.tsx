@@ -1,4 +1,4 @@
-import { contacts } from "../../scripts/contacts"
+// import { contacts } from "../../scripts/contacts"
 export default function ContactComponent(){
     return (
         <section className="Contacts">

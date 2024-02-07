@@ -16,10 +16,9 @@ export default function Admin(){
     } = useForm<loginInterface>();
     const navigate = useNavigate();
 
-    // TODO: need to resolve this error
     const onSubmit: SubmitHandler<loginInterface> = async (data:loginInterface, 
-                    e:React.ChangeEvent<HTMLInputElement> ) => {
-        checkAuthorization(data, e);
+                     ) => {
+        checkAuthorization(data);
         navigate("/admin/Dashboard");
     }
 

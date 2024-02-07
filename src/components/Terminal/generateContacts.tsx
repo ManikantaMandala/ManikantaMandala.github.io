@@ -1,5 +1,5 @@
-import { contactObject } from "../../scripts/contacts";
-export default function generateContacts(contacts: contactObject, output: string){
+// import { contactObject } from "../../scripts/contacts";
+export default function generateContacts(/*contacts: contactObject,*/ output: string){
     return (
         <div className="terminal-output">
             <p>Manikanta$ {output}</p>

@@ -1,8 +1,9 @@
 import dotenv from "./dotEnv";
 
-export default async function checkAuthorization(data:any,
-                                  e: React.ChangeEvent<HTMLInputElement>){
-    e.preventDefault();
+export default async function checkAuthorization(data:any){
+    // TODO: need to resolve this error
+    // Add this preventDefault
+    // e.preventDefault();
     try{
         const response = await fetch(`${dotenv.BACKEND_LINK}/admin/login`, {
             method: "POST",
