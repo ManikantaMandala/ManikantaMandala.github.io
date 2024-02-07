@@ -1,7 +1,8 @@
 import { experienceType } from "../../scripts/experience";
-export default function generateExperience(experience: experienceType[]){
+export default function generateExperience(experience: experienceType[], output:string){
     return (
-        <div className="Experience">
+        <div className="terminal-output">
+            <p>Manikanta$ {output}</p>
             <h2>Experience</h2>
             {experience.map((exp, index) => (
                 <div key={index}>

@@ -1,7 +1,8 @@
 import { projectItemType } from "../../scripts/projects"
-export default function generateProjects(projects: projectItemType[]){
+export default function generateProjects(projects: projectItemType[], output:string){
     return (
-        <>
+        <div className="terminal-output">
+            <p>Manikanta$ {output}</p>
             <h2>Projects</h2>
             {projects.map((project, index) => (
                 <div key={index} className="Project">
@@ -16,7 +17,7 @@ export default function generateProjects(projects: projectItemType[]){
                         <a href={project.link} target="_blank" rel="noopener noreferrer">{project.link}</a>
                 </div>
             ))}
-        </>
+        </div>
     )
 
 }

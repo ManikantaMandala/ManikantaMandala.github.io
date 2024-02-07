@@ -2,10 +2,7 @@ export default function Footer(){
     return (
         <>
             <footer>
-                <hr style={{
-                    color: "grey",
-                }}
-                />
+                <hr/>
                 <div className="Contact">
                     <a href="https://github.com/ManikantaMandala" target="_blank">
                         <img src="/github-mark.svg"/>

@@ -1,5 +1,7 @@
 import { projects } from "../../scripts/projects";
+
 export default function ProjectsComponent(){
+
     return (
         <section>
             <h2>Projects</h2>

@@ -1,7 +1,8 @@
 import { educationType } from "../../scripts/education"
-export default function generateEducation(education: educationType[]){
+export default function generateEducation(education: educationType[], output:string){
     return (
-        <>
+        <div className="terminal-output">
+            <p>Manikanta$ {output}</p>
             <h2> Education </h2>
             {education.map((school: educationType, index: number) => (
                 <div key={index}>
@@ -11,6 +12,6 @@ export default function generateEducation(education: educationType[]){
                     ))}
                 </div>
             ))}
-        </>
+        </div>
     )
 }

@@ -3,9 +3,11 @@ import './App.css';
 import NavBar from './components/NavBar';
 // import Projects from './components/routes/Projects';
 import Resume from './components/routes/Resume';
+import NotFound from './components/routes/404NotFound';
 import Home from './components/routes/Home';
 import Terminal from './components/routes/Terminal';
-import Footer from './components/Footer';
+import Admin from './components/routes/Admin';
+import AdminDashboard from './components/AdminComponent/AdminDashboard';
 
 function App() {
     return (
@@ -31,8 +33,19 @@ function App() {
                         path='/resume' 
                         element={<Resume />} 
                     />
+                    <Route
+                        path='/admin'
+                        element={<Admin/>}
+                    />
+                    <Route
+                        path='/admin/dashboard'
+                        element= {<AdminDashboard/>}
+                    />
+                    <Route
+                        path="/*"
+                        element={<NotFound/>}
+                    />
                 </Routes>
-                <Footer />
             </Router>
         </div>
     );
