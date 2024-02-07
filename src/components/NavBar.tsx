@@ -20,7 +20,7 @@ export default function NavBar(){
     }, []);
 
     return (
-        <div className='NavBar'>
+        <div className='NavBar' id='nav-bar'>
             <h2>
                 <a href='/'>Manikanta Mandala 👨‍💻</a>
             </h2>

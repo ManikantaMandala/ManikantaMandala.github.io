@@ -1,6 +1,9 @@
 body{
     background-color: #242424
 }
+/* #name{ */
+/*     display: none; */
+/* } */
 #root {
     max-width: 80vw;
     margin: 0 auto;
@@ -25,6 +28,14 @@ body{
 
 #menu {
     cursor: pointer;
+}
+#name{
+    margin: 0;
+}
+#print-button{
+    margin-right: 0;
+    display: flex;
+    justify-content: flex-end
 }
 .App{
     margin: 0 0.5rem;
