@@ -19,12 +19,6 @@ function App() {
                         path='/' 
                         element={<Home />} 
                     />
-                    {/*
-                        <Route 
-                            path='/projects' 
-                            element={<Projects />} 
-                        />
-                    */}
                     <Route 
                         path='/terminal' 
                         element={<Terminal />} 

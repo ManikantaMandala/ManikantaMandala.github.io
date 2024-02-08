@@ -11,7 +11,6 @@ export default function Admin(){
     const {
         register,
         handleSubmit,
-        // watch,
         formState: {errors},
     } = useForm<loginInterface>();
     const navigate = useNavigate();
@@ -19,7 +18,7 @@ export default function Admin(){
     const onSubmit: SubmitHandler<loginInterface> = async (data:loginInterface, 
                      ) => {
         checkAuthorization(data);
-        navigate("/admin/Dashboard");
+        navigate("/admin/dashboard");
     }
 
     return (
@@ -27,7 +26,6 @@ export default function Admin(){
             <div>
                 <input 
                     {...register("emailId")}
-                    onChange={e => e.target}
                     placeholder="Enter emailId"
                 />
                 {errors.emailId && <span> Its required</span>}

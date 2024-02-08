@@ -1,0 +1,17 @@
+.admin-h3{
+    margin: 10px auto 0 auto;
+}
+.admin-h3 h2{
+    margin: 20px 0 20px 0;
+}
+h1{
+    margin: 0;
+}
+.admin-description{
+}
+.admin-input {
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    width: 100%;
+    cols: 30;
+}

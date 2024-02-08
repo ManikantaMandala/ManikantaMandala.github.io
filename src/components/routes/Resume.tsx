@@ -11,7 +11,7 @@ export default function Resume(){
     return (
         <div className="Resume">
             <h2 id="name"></h2>
-            <div style={{display: "flex", justifyContent:"flex-end"}}>
+            <div id="print-div" style={{display: "flex", justifyContent:"flex-end"}}>
                 <button id="print-button" onClick={print}> Print </button>
             </div>
             <div >

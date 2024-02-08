@@ -59,14 +59,6 @@ function terminalCommands(expression: string, setOutput: any, output: string) {
                     : [whoamiOutput];
             });
             break;
-        // case 'info':
-        //     const info = <TerminalOutput key="info-output">{shortDescription}</TerminalOutput>
-        //     setOutput((prevOutput: JSX.Element[] | undefined) => {
-        //         return prevOutput && Symbol.iterator in Object(prevOutput)
-        //             ? [...prevOutput, info]
-        //             : [info];
-        //     });
-        //     break;
         case 'projects':
             const projectOutput = generateProjects(projects, output);
             setOutput((prevOutput: JSX.Element[] | undefined) => {
