@@ -20,6 +20,12 @@ export default function ContactComponent(){
                     &nbsp; +918688014820
                 </a>
             </li>
+            <li key='portfolio'>
+                <strong>Portfolio</strong>
+                <a href="https://manikantamandala.github.io" target="_blank">
+                    &nbsp; MyPortfolio
+                </a>
+            </li>
         </section>
     )
 }

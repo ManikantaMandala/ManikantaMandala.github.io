@@ -14,10 +14,7 @@ export default function AdminDashboard(){
     },[]);
     return (
         <>
-            {/*
-                */}
-        <ProjectsComponentAdmin/>
-            <ExperienceComponentAdmin />
+               Hello, Welcome to Admin page
         </>
     )
 }

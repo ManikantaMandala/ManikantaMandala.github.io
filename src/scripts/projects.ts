@@ -28,7 +28,7 @@ export const projects: projectItemType[] = [
         projectName: "TodoApplication",
         topics: ["Node.js", "React.js", "MongoDB"],
         description: [
-            "Developed a minimalist Todo Application with user authentication, user",
+            "Developed a minimalist Todo Application with user authentication for multiple users, Todo management",
             "Constructed a web application where frontend with React.js and the backend using Node.js. Where the implementation contains multiple libraries like, Zod, mongoose, dotenv, jsonwebtoken, Express.js, etc.."
         ],
         link: "https://github.com/ManikantaMandala/TodoApplication"
