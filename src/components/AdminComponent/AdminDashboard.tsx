@@ -1,10 +1,9 @@
 // import { BrowserRouter, Route, Router } from "react-router-dom";
 // import ProjectsComponent from "../ResumeComponents/ProjectsComponent";
 
-import { useEffect, useState } from "react"
-import ProjectsComponentAdmin from "./ProjectComponentAdmin";
-import ExperienceComponentAdmin from "./ExperienceComponentAdmin";
+import { useEffect } from "react"
 import '../../styling/adminStyling.css'
+import AdminNavLinks from "./AdminNavBar";
 
 
 export default function AdminDashboard(){

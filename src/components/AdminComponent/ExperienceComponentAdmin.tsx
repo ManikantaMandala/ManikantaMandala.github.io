@@ -1,11 +1,13 @@
 import { experience, experienceType } from "../../scripts/experience"
-import { Path, UseFormRegister, useForm } from "react-hook-form"
+import { /*Path, UseFormRegister,*/ useForm } from "react-hook-form"
 export default function ExperienceComponentAdmin(){
     const {
         register,
+        /*
         handleSubmit,
         watch,
         formState: {errors}
+        */
     } = useForm<experienceType[]>();
      return (
         <>

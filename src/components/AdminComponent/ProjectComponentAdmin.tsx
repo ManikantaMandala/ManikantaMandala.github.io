@@ -5,8 +5,10 @@ export default function ProjectsComponentAdmin() {
     const {
         register,
         handleSubmit,
+        /*
         watch,
         formState: {errors}
+        */
     }=useForm<projectItemType[]>({
         //TODO: get projects data from backend
         defaultValues: projects

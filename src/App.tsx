@@ -1,6 +1,5 @@
 import {
     createHashRouter,
-    HashRouter as Router,
     Outlet
 } from 'react-router-dom';
 import './App.css';

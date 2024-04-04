@@ -12,9 +12,9 @@ export const experience : experienceType[] = [
         companyLink: "https://www.areksoft.com/",
         role: "Android Developer",
         description: [
-            "Developed a working android application has functionalities like user authentication, user data management, payment gateway.",
-            "Collaborated with 3 membered teams to design and implement the application.",
-            "Used different technologies like Java, XML, Gradle, Firebase, git."
+            "Developed a comprehensive Chit Fund Management System using Spring Boot, Java, and JPA.",
+            "Collaborated with cross-functional teams to gather requirements and deliver high-quality software solutions.",
+            " Implemented RESTful APIs, conducted code reviews, and contributed to troubleshooting and issue resolution, ensuring robustness and performance of the system."
         ],
         link: "https://github.com/YashitaKumar/Chit-Fund-Management-App"
     }

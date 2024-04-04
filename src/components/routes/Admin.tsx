@@ -17,8 +17,13 @@ export default function Admin(){
 
     const onSubmit: SubmitHandler<loginInterface> = async (data:loginInterface, 
                      ) => {
-        checkAuthorization(data);
-        navigate("/admin/dashboard");
+        await checkAuthorization(data);
+        if(localStorage.getItem('authToken')){
+            navigate("/admin/dashboard");
+        }
+        else{
+            navigate("/error")
+        }
     }
 
     return (

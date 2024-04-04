@@ -2,7 +2,7 @@ body{
     background-color: #242424
 }
 #root {
-    max-width: 80vw;
+    max-width: 1120px;
     margin: 0 auto;
 
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -13,13 +13,10 @@ body{
     color: rgba(255, 255, 255, 0.87);
     background-color: #242424;
 
-    /* font-synthesis: none; */
-    /* text-rendering: optimizeLegibility; */
-    /* -webkit-font-smoothing: antialiased; */
     -moz-osx-font-smoothing: grayscale;
 }
 ::-webkit-scrollbar {
-  width: 0;
+    width: 0;
 }
 #menu {
     cursor: pointer;
@@ -31,6 +28,18 @@ body{
     margin-right: 0;
     display: flex;
     justify-content: flex-end
+}
+@media print{
+    #print-button{
+        display: none;
+    }
+    #nav-bar{
+        display: none;
+    }
+    #root{
+        max-width: none;
+        color: black;
+    }
 }
 .App{
     margin: 0 0.5rem;
@@ -86,9 +95,30 @@ body{
     width: 30px;
     height: 30px;
 }
+/* Home page */
 .Home p{
     margin: 0;
-
+}
+.intro {
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.intro *{
+    width: fit-content;
+}
+.resume-button{
+    display: inline-flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+.aim-description{
+    font-size: 2rem;
+    padding: 1rem 0;
 }
 
 .hamburger-open{
@@ -107,7 +137,11 @@ body{
     padding: 0;
 }
 .terminal-output {
-    color: green;
+    color: lightgreen;
+}
+.terminal-output a{
+    color: blue;
+    text-decoration: none;
 }
 @media only screen and (max-width: 500px){
     #terminal-container{
@@ -124,11 +158,11 @@ body{
     align-items: center;
 }
 a {
-    color: green;
+    color: lightgreen;
     text-decoration: none;
 }
 a:hover {
-    color: green; 
+    color: lightgreen; 
     text-decoration:none; 
     cursor:pointer;  
 }
